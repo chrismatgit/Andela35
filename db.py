@@ -10,7 +10,7 @@ class DatabaseConnection:
         if os.getenv('DB_NAME') == 'test_db':
             self.db_name = 'test_db'
         else:
-            self.db_name = 'test_db'
+            self.db_name = 'd91li7eja0j92o'
 
         pprint(self.db_name)
 
