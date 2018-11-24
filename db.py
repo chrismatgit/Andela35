@@ -7,10 +7,10 @@ import os
 class DatabaseConnection:
     def __init__(self):
 
-        if os.getenv('DB_NAME') == 'test_db':
-            self.db_name = 'test_db'
+        if os.getenv('DB_NAME') == 'd91li7eja0j92o':
+            self.db_name = 'd91li7eja0j92o'
         else:
-            self.db_name = 'learn_db'
+            self.db_name = 'd91li7eja0j92o'
 
         pprint(self.db_name)
 
